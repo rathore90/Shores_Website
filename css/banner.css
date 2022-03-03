@@ -6,8 +6,26 @@
     height: 600px;
 }
 
-.banner_content{
-    min-height: 600px;
-    max-width: 1200px;
-    margin: auto;
+h1.banner_heading {
+    color: white;
+    text-transform: capitalize;
+    padding: 2rem 0;
+}
+
+p.header_paragraph {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+button.register-button.banner_button {
+    margin: 0;
+    background: #FFB548;
+    border: 1.5px solid #FFB548;
+}
+
+.banner_wrapper {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
 }

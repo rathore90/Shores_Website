@@ -1,0 +1,46 @@
+.section_two{
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.overlapping_content {
+  margin-top: -100px;
+  position: relative;
+  z-index: 4;
+}
+
+.image_right{
+  height: 600px;
+  width: 70%;
+  float: right;
+}
+.overlapping_card{
+  height: 300px;
+  width: 40%;
+  background: red;
+  position: absolute;
+  z-index: 2;
+  top: 60%;
+}
+
+img.image_left {
+  height: 600px;
+  width: 70%;
+}
+
+.overlapping_card_right {
+    float: right;
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    height: 300px;
+    width: 40%;
+    z-index: 2;
+}
+
+.empty{
+  height: 300px;
+  width: 100%;
+}

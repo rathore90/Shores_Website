@@ -1,0 +1,25 @@
+.annoucement_bar{
+  background: #FFB548;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.annoucement_bar a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 0;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 600px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer{
+  background: #004D58;
+}
+
+

@@ -1,0 +1,25 @@
+.section_one {
+  background: #B6E7EE;
+  box-shadow: 0 3px 30px rgb(0 0 0 / 50%);
+  z-index: 3;
+  position: relative;
+}
+
+.section_one h1,
+.section_one p{
+  color: #003333;
+}
+
+.section_one .wrapper{
+  height: 500px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section_one.secondary {
+  margin-top: -100px;
+  background: #FFB548;
+}
