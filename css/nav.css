@@ -77,8 +77,8 @@ nav{
     margin-left: 2vw;
     font-size: 1rem;
     cursor: pointer;
-
 }
+
 .register:hover {
     color: #B6E7EE;
     background-color: #f2f5f7;
@@ -101,8 +101,8 @@ nav{
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     nav{
-        position: fixed;
-        z-index: 3;
+        position: relative;
+        z-index: 999;
     }
     .hamburger{
         display:block;

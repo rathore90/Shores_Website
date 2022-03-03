@@ -18,8 +18,22 @@
   margin: auto;
 }
 
+.btn {
+  color: #ffff;
+  padding: 0.6rem 0.8rem;
+  margin-left: 2vw;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn.cta{
+  background: #003333;
+  border: 1.5px solid #003333;
+  margin-top: 2rem;
+}
+
 .footer{
-  background: #004D58;
+  background: #003333;
 }
 
 
