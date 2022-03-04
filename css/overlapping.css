@@ -30,7 +30,7 @@
 }
 
 .overlapping_card_content {
-  padding: 3rem;
+  padding: 5rem 3rem;
   color: white;
 }
 
@@ -103,5 +103,8 @@ p.overlapping_card_paragraph{
   .overlapping_card,
   .overlapping_card_right {
     width: 80%;
+  }
+  .overlapping_content{
+    margin-top: -60px;
   }
 }
