@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'EPILOGUE', sans-serif;
+}
+
+p,
+button,
+span,
+a {
+  font-family: 'Archivo', sans-serif;
+}
+
 .annoucement_bar{
   background: #FFB548;
   width: 100%;

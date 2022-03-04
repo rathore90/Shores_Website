@@ -21,7 +21,7 @@ h1.section_heading:after{
   content: '';
   position: absolute;
   width: 10rem;
-  height: 0.2rem;
+  height: 0.15rem;
   left: 50%;
   top: 80%;
   transform: translate(-50%, 0px);
@@ -60,10 +60,10 @@ h1.section_heading:after{
 .secondary_wrapper {
   max-width: 1180px;
   margin: auto;
-  padding: 0 35px;
+  padding: 0 10%;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .section_one .wrapper{
     height: unset;
     min-height: unset;

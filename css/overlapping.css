@@ -51,6 +51,7 @@
 
 .empty{
   height: 300px;
+  display: block;
   width: 100%;
 }
 
@@ -68,10 +69,10 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .overlapping_card,
   .overlapping_card_right {
-    width: 80%;
+    width: 90%;
   }
 
   .overlapping_content{
@@ -86,9 +87,18 @@
   .image_left {
     width: 100%;
   }
-
-  .empty {
-    height: 175px;
+  .empty{
+    height: 150px;
   }
+}
 
+@media (min-width: 600px) and (max-width: 992px) {
+  .image_right,
+  .image_left {
+    height: 350px;
+  }
+  .overlapping_card,
+  .overlapping_card_right {
+    width: 80%;
+  }
 }
