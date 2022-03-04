@@ -23,7 +23,7 @@
 }
 .overlapping_card{
   width: 40%;
-  background: #003333;
+  background: #004D58;
   position: absolute;
   z-index: 2;
   top: 60%;

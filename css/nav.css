@@ -40,7 +40,6 @@ nav{
 .nav-links{
     display: flex;
     list-style: none;
-    width: 50vw;
     float: right;
     padding: 0 0.7vw;
     height: 5rem;
