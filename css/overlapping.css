@@ -71,19 +71,24 @@
 @media only screen and (max-width: 600px) {
   .overlapping_card,
   .overlapping_card_right {
-    width: 60%;
+    width: 80%;
   }
+
   .overlapping_content{
     margin-top: -35px;
   }
+
   .overlapping_content_two{
     margin-bottom: -35px;
   }
+
   .image_right,
   .image_left {
-    width: 85%;
+    width: 100%;
   }
+
   .empty {
     height: 175px;
   }
+
 }
