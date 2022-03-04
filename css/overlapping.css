@@ -58,7 +58,10 @@
 .overlapping_card_heading,
 .overlapping_card_paragraph {
   padding-bottom: 1.5rem;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
+}
+p.overlapping_card_paragraph{
+  font-weight: 200;
 }
 
 .overlapping_card .btn,
