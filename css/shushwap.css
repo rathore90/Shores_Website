@@ -1,0 +1,21 @@
+.shushwap .overlapping_content_two {
+  margin: -100px auto -100px;
+}
+
+.shushwap .wrapper {
+  min-height: 375px;
+}
+
+.overlapping_card_right {
+  width: 50%;
+}
+
+.shushwap .map_header {
+  margin-top: 250px;
+}
+
+@media (max-width: 800px) {
+  .shushwap .overlapping_content_two {
+    padding: 0;
+  }
+}
