@@ -1,0 +1,101 @@
+.ourStory.banner {
+  background-image: url('/images/img_amenities_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.ourStory .wrapper {
+  min-height: 400px;
+}
+
+.ourStory.section_one {
+  background: #B6E7EE;
+}
+
+.ourStory.section_one.secondary {
+  background: #DBF3F6;
+  box-shadow: none;
+  padding-top: 100px;
+}
+
+.ourStory.section_one.secondary.white_background {
+  background: #ffffff;
+  box-shadow: none;
+  padding: 100px 0;
+}
+
+.ourStory.section_one.cta {
+  background: #FFB548;
+  padding: 5% 0;
+  box-shadow: unset;
+}
+
+/* cta */
+.ourStory .section_heading {
+  position: relative;
+}
+
+.ourStory .section_heading:after {
+  content: '';
+  position: absolute;
+  width: 10rem;
+  height: 0.15rem;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, 0px);
+  background: #003333;
+}
+
+.ourStory h1.section_heading:after {
+  top: 170px;
+}
+
+.ourStory.section_one.cta .section_heading:after {
+  width: 6rem;
+  height: 0.15rem;
+}
+
+.ourStory .section_paragraph_second {
+  margin: 65px auto 0;
+}
+
+/* two column */
+
+.ourStory .two_column {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 85px;
+}
+
+.ourStory .column_one {
+  width: 35%;
+  float: left;
+}
+
+.ourStory .column_two {
+  width: 35%;
+  float: right;
+}
+
+.column_one p,
+.column_two p {
+  text-align: left;
+}
+
+.ourStory.section_one.secondary.white_background .secondary_wrapper {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .ourStory .secondary_wrapper {
+    margin-bottom: 0px;
+  }
+
+  .ourStory.section_one.secondary {
+    padding-top: 250px;
+    padding-bottom: 100px;
+  }
+}

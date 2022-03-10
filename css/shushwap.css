@@ -57,6 +57,15 @@
   box-shadow: unset;
 }
 
+.shushwap.section_one {
+  background: #B6E7EE;
+}
+
+.shushwap.section_one.secondary {
+  background: #DBF3F6;
+  box-shadow: none;
+}
+
 .shushwap.section_one.cta {
   background: #FFB548;
   padding: 5% 0;

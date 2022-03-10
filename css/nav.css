@@ -46,6 +46,7 @@ nav{
     text-decoration: none;
     margin: 0 0.7vw;
     color: #5FD0DF;
+    font-weight: 400;
     white-space: nowrap;
 }
 .nav-links li a:hover {
