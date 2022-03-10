@@ -14,6 +14,120 @@
   margin-top: 250px;
 }
 
+.shushwap.four_column{
+    max-width: 1200px;
+    padding: 50px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.shushwap.four_column ul{
+  list-style: none;
+   counter-reset: my-awesome-counter;
+}
+
+.shushwap.four_column ul li{
+  counter-increment: my-awesome-counter;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+
+.shushwap.four_column ul li::before {
+  content: counter(my-awesome-counter) " ";
+  margin-right: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+}
+
+/* Shushwap */
+.shushwap.section_one.secondary {
+  background: #DBF3F6;
+  padding: 5% 0;
+  box-shadow: unset;
+}
+
+.shushwap.section_one.cta {
+  background: #FFB548;
+  padding: 5% 0;
+  box-shadow: unset;
+}
+
+.shushwap .section_heading:after {
+  content: '';
+  position: absolute;
+  width: 10rem;
+  height: 0.15rem;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, 0px);
+  background: #003333;
+}
+
+.map_header .section_heading:after {
+  top: 75%;
+  height: 0.1rem;
+}
+
+.shushwap.section_one.cta .section_heading:after {
+  top: 40%;
+  width: 6rem;
+  height: 0.15rem;
+}
+
+.shushwap .btn{
+  margin-left: 0;
+}
+
+.four_column_wrapper {
+  background: #e5f6f8;
+}
+
+.shushwap .section_paragraph_second {
+  margin: 65px auto 0;
+}
+
+.shushwap.four_column .column_one ul li::before {
+    color: #003333;
+    background: #008000cf;
+}
+.shushwap.four_column .column_two ul li::before {
+  color: #ffffff;
+  background: #000080cf;
+}
+.shushwap.four_column .column_three ul li::before {
+  color: #003333;
+  background: #FFB548;
+}
+.shushwap.four_column .column_four ul li::before {
+  color: #003333;
+  background: orange;
+}
+
+.shushwap .icon_text {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  width: 60%;
+  line-height: 22px;
+}
+
+.shushwap .icon_text img{
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+}
+
+.shushwap .two_column {
+  display: flex;
+}
+
 @media (max-width: 800px) {
   .shushwap .overlapping_content_two {
     padding: 0;

@@ -18,8 +18,9 @@ h5 {
 p,
 button,
 span,
-a {
+a, ul, li {
   font-family: 'Archivo', sans-serif;
+  font-weight: 300;
 }
 
 img{
@@ -123,24 +124,6 @@ img{
 
 .map{
   background: #d9f3f6;
-}
-
-/* Shushwap */
-.shushwap.section_one.secondary {
-  background: #d9f3f6;
-  padding: 5% 0;
-  box-shadow: unset;
-}
-
-.shushwap .section_heading:after {
-  content: '';
-  position: absolute;
-  width: 10rem;
-  height: 0.15rem;
-  left: 50%;
-  top: 85%;
-  transform: translate(-50%, 0px);
-  background: #003333;
 }
 
 .overlapping_content_two{ 

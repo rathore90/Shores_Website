@@ -18,11 +18,17 @@
 
 .image_right{
   height: 600px;
-  width: 70%;
+  width: 80%;
   float: right;
 }
+
+.image_left {
+  height: 600px;
+  width: 80%;
+}
+
 .overlapping_card{
-  width: 40%;
+  width: 45%;
   background: #004D58;
   position: absolute;
   z-index: 2;
@@ -32,11 +38,6 @@
 .overlapping_card_content {
   padding: 5rem 3rem;
   color: white;
-}
-
-.image_left {
-  height: 500px;
-  width: 70%;
 }
 
 .overlapping_card_right {
