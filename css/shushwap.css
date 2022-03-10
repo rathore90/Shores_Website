@@ -11,15 +11,19 @@
 }
 
 .shushwap .map_header {
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 .shushwap.four_column{
-    max-width: 1200px;
-    padding: 50px 25px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
+  max-width: 1200px;
+  padding: 50px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.shushwap.four_column > div {
+  width: 25%;
 }
 
 .shushwap.four_column ul{
@@ -124,12 +128,30 @@
   padding-right: 5px;
 }
 
-.shushwap .two_column {
-  display: flex;
+.shushwap .image_left {
+  height: 500px;
+  width: 80%;
+  object-fit: cover;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+  .shushwap .image_left {
+    width: 100%;
+  }
+  .shushwap .overlapping_card_right {
+    width: 90%;
+  }
+  .shushwap .map_header {
+    margin-top: 325px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
   .shushwap .overlapping_content_two {
     padding: 0;
   }
+  /* .shushwap.four_column{
+    flex-direction: column;
+  } */
 }
+
