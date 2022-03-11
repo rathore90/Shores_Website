@@ -68,7 +68,7 @@
 
 .shushwap.section_one.cta {
   background: #FFB548;
-  padding: 5% 0;
+  padding: 60px 0;
   box-shadow: unset;
 }
 
@@ -76,7 +76,7 @@
   content: '';
   position: absolute;
   width: 10rem;
-  height: 0.15rem;
+  height: 0.1rem;
   left: 50%;
   top: 80%;
   transform: translate(-50%, 0px);
@@ -91,7 +91,7 @@
 .shushwap.section_one.cta .section_heading:after {
   top: 40%;
   width: 6rem;
-  height: 0.15rem;
+  height: 0.1rem;
 }
 
 .shushwap .btn{
@@ -138,8 +138,8 @@
 }
 
 .shushwap .image_left {
-  height: 500px;
-  width: 80%;
+  height: 600px;
+  width: 75%;
   object-fit: cover;
 }
 
@@ -155,12 +155,17 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 600px) and (max-width: 850px) {
   .shushwap .overlapping_content_two {
-    padding: 0;
+    padding-top: 10px;
   }
-  /* .shushwap.four_column{
-    flex-direction: column;
-  } */
+  .shushwap .overlapping_card_right {
+    width: 75%;
+  }
+  .shushwap .image_left {
+    height: 500px;
+    width: 85%;
+    object-fit: cover;
+  }
 }
 
