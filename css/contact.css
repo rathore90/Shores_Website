@@ -1,0 +1,135 @@
+.contact.banner {
+  background-image: url('/images/img_amenities_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.contact .wrapper {
+  min-height: 400px;
+}
+
+.contact p{
+  margin: .625rem;
+}
+
+.contact .section_heading {
+  line-height: 3.6rem;
+}
+
+.contact.section_one.secondary {
+  background: #DBF3F6;
+  box-shadow: none;
+  padding-top: 100px;
+}
+
+.contact.section_one.cta {
+  background: #FFB548;
+  padding: 60px 0;
+  box-shadow: unset;
+}
+
+/* cta */
+.contact .section_heading {
+  position: relative;
+  padding: 0px 10px;
+}
+
+.contact h1.section_heading {
+  padding: 3rem 2rem;
+}
+
+.contact .section_heading:after {
+  content: '';
+  position: absolute;
+  width: 10rem;
+  height: 0.1rem;
+  left: 50%;
+  top: 92%;
+  transform: translate(-50%, 0px);
+  background: #003333;
+}
+
+.contact .map_header .section_heading:after {
+  top: 75px;
+}
+
+.contact.section_one.cta .section_heading:after {
+  width: 6rem;
+  height: 0.1rem;
+  top: 75px;
+}
+
+.contact .section_paragraph_second {
+  margin: 65px auto 0;
+}
+
+/* two column */
+
+.contact .two_column {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact .column_one {
+  width: 35%;
+  float: left;
+}
+
+.contact .column_two {
+  width: 35%;
+  float: right;
+}
+
+.column_one p,
+.column_two p {
+  text-align: left;
+}
+
+.contact.section_one.secondary.white_background .secondary_wrapper {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+/* Team Section */
+.contact.section_one.secondary.white_background .two_column {
+  margin-top: 4rem;
+}
+
+/* get in touch */
+.get_in_touch{
+  margin-top: 55px;
+}
+
+@media (max-width: 450px) {
+  .contact .map_header .section_heading:after {
+    top: 125px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact .two_column {
+    flex-direction: column;
+  }
+
+  .contact.section_one.secondary .column_one,
+  .contact.section_one.secondary .column_two {
+    width: 85%;
+    margin: 0 auto 25px;
+  }
+
+  .contact.section_one .wrapper {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .contact .wrapper {
+    margin-bottom: 0px;
+  }
+
+  .contact.section_one.secondary {
+    padding-bottom: 100px;
+  }
+}
