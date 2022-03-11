@@ -102,6 +102,26 @@
   padding-top: 0;
 }
 
+@media (max-width: 600px){
+  .amenities h1.section_heading:after {
+    top: 150px;
+  }
+  .amenities .two_column {
+    flex-direction: column;
+  }
+  .amenities .column_one,
+  .amenities .column_two {
+    width: 90%;
+    margin: auto;
+  }
+  .amenities .section_heading:after {
+    top: 70px;
+  }
+  .section_paragraph_first{
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 768px){
   .amenities .secondary_wrapper{
      margin-bottom: 0px; 

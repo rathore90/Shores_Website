@@ -123,6 +123,10 @@
   .contact.section_one .wrapper {
     margin-bottom: 0rem;
   }
+  
+  .section_paragraph_first {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
