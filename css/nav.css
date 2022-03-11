@@ -26,9 +26,8 @@ nav{
     top: 50%;
 }
 .footer_logo {
-    height: 5rem;
-    width: 5rem;
-    margin-bottom: 0.7rem;
+    width: 150px;
+    margin: 0.7rem 0;
 }
 
 /*Styling Links*/
